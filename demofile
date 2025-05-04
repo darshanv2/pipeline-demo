@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from version control
-                git url:'https://github.com/darbatanv2/pipeline-demo.git'
+                git url:'https://github.com/darshanv2/pipeline-demo.git'
             }
         }
         stage('Build') {
